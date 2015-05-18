@@ -10,3 +10,20 @@ img {
 	font-style: italic;
     vertical-align: middle;
 }
+
+/* 
+   #img-fluid
+   ========================================================================== */
+
+/**
+ * The img-fluid helper class makes fluid images without hacky [width] selectors.
+ *
+ * Usage:
+ *
+ * <img class="image-fluid">
+ */
+ 
+.image-fluid {
+	width: 100%;
+	height: auto;
+}
