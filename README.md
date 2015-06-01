@@ -6,7 +6,7 @@ The `images` module provides additional styles for images.
 
 Install using Bower:
 
-	$ bower --save bare-images
+	$ bower install --save bare-images
 
 Import into project:
 
