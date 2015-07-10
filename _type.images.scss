@@ -12,18 +12,18 @@ img {
 }
 
 /* 
-   #img-fluid
+   #image-fluid
    ========================================================================== */
 
 /**
- * The image-fluid helper class makes fluid images without hacky [width] selectors.
+ * The image-fluid helper makes responsive images.
  *
  * Usage:
  *
- * <img class="image-fluid">
+ * <img class="u-image-fluid">
  */
  
-.image-fluid {
+.u-image-fluid {
 	width: 100%;
 	height: auto;
 }
