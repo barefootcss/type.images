@@ -27,3 +27,39 @@ img {
 	width: 100%;
 	height: auto;
 }
+
+/* 
+   #image-l
+   ========================================================================== */
+
+/**
+ * The image-l floats an image to the left and creates a right-hand margin.
+ *
+ * Usage:
+ *
+ * <img class="u-image-l">
+ */
+ 
+.u-image-l {
+	float: left;
+	margin-right: bareRem($bare-sp-m);
+	margin-bottom: bareRem($bare-sp-m);
+}
+
+/* 
+   #image-r
+   ========================================================================== */
+
+/**
+ * The image-r floats an image to the right and creates a left-hand margin.
+ *
+ * Usage:
+ *
+ * <img class="u-image-r">
+ */
+ 
+.u-image-r {
+	float: left;
+	margin-left: bareRem($bare-sp-m);
+	margin-bottom: bareRem($bare-sp-m);
+}
